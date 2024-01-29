@@ -1,9 +1,9 @@
-# wasreport-generator #
+# qualys-wasreport-generator #
 
-[![GitHub Build Status](https://github.com/cisagov/wasreport-generator/workflows/build/badge.svg)](https://github.com/cisagov/wasreport-generator/actions)
-[![CodeQL](https://github.com/cisagov/wasreport-generator/workflows/CodeQL/badge.svg)](https://github.com/cisagov/wasreport-generator/actions/workflows/codeql-analysis.yml)
-[![Coverage Status](https://coveralls.io/repos/github/cisagov/wasreport-generator/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/wasreport-generator?branch=develop)
-[![Known Vulnerabilities](https://snyk.io/test/github/cisagov/wasreport-generator/develop/badge.svg)](https://snyk.io/test/github/cisagov/wasreport-generator)
+[![GitHub Build Status](https://github.com/cisagov/qualys-wasreport-generator/workflows/build/badge.svg)](https://github.com/cisagov/qualys-wasreport-generator/actions)
+[![CodeQL](https://github.com/cisagov/qualys-wasreport-generator/workflows/CodeQL/badge.svg)](https://github.com/cisagov/qualys-wasreport-generator/actions/workflows/codeql-analysis.yml)
+[![Coverage Status](https://coveralls.io/repos/github/cisagov/qualys-wasreport-generator/badge.svg?branch=develop)](https://coveralls.io/github/cisagov/qualys-wasreport-generator?branch=develop)
+[![Known Vulnerabilities](https://snyk.io/test/github/cisagov/qualys-wasreport-generator/develop/badge.svg)](https://snyk.io/test/github/cisagov/qualys-wasreport-generator)
 
 This is a generic skeleton project that can be used to quickly get a
 new [cisagov](https://github.com/cisagov) Python library GitHub

@@ -53,8 +53,8 @@ setup(
     # Additional URLs for this project per
     # https://packaging.python.org/guides/distributing-packages-using-setuptools/#project-urls
     project_urls={
-        "Source": "https://github.com/cisagov/wasreport-generator",
-        "Tracker": "https://github.com/cisagov/wasreport-generator/issues",
+        "Source": "https://github.com/cisagov/qualys-wasreport-generator",
+        "Tracker": "https://github.com/cisagov/qualys-wasreport-generator/issues",
     },
     # Author details
     author="Cybersecurity and Infrastructure Security Agency",
