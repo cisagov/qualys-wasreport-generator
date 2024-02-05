@@ -44,7 +44,7 @@ def get_version(version_file):
 setup(
     name="example",
     # Versions should comply with PEP440
-    version=get_version("src/example/_version.py"),
+    version=get_version("src/_version.py"),
     description="Example Python library",
     long_description=readme(),
     long_description_content_type="text/markdown",
