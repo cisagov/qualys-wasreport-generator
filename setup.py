@@ -1,5 +1,5 @@
 """
-This is the setup module for the example project.
+This is the setup module for the qualys-report-generator project.
 
 Based on:
 
@@ -42,10 +42,10 @@ def get_version(version_file):
 
 
 setup(
-    name="example",
+    name="qualys-report-generator",
     # Versions should comply with PEP440
     version=get_version("src/_version.py"),
-    description="Example Python library",
+    description="Python library to generate CISA reports from Qualys scans.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     # Landing page for CISA's cybersecurity mission
@@ -89,7 +89,7 @@ setup(
     keywords="skeleton",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    package_data={"example": ["data/*.txt"]},
+    package_data={"qualys-report-generator": ["data/*.txt"]},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
     include_package_data=True,
     install_requires=["docopt", "schema", "setuptools >= 24.2.0"],
@@ -108,6 +108,6 @@ setup(
             "pytest",
         ]
     },
-    # Conveniently allows one to run the CLI tool as `example`
-    entry_points={"console_scripts": ["example = example.example:main"]},
+    # Conveniently allows one to run the CLI tool as `wasreport`
+    entry_points={"console_scripts": ["wasreport = src:main"]},
 )
